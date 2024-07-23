@@ -77,8 +77,8 @@ elVideo.addEventListener("play", async () => {
 
     const resizedDetections = faceapi.resizeResults(detections, displaySize);
     canvas.getContext('2d').clearRect(0, 0, canvas.width, canvas.height);
-    // faceapi.draw.drawDetections(canvas, resizedDetections); // Comentamos esto para no dibujar en el canvas
-    // faceapi.draw.drawFaceLandmarks(canvas, resizedDetections); // Comentamos esto para no dibujar en el canvas
-    // faceapi.draw.drawFaceExpressions(canvas, resizedDetections); // Comentamos esto para no dibujar en el canvas
+    // faceapi.draw.drawDetections(canvas, resizedDetections); // Comento esto para no dibujar en el canvas
+    // faceapi.draw.drawFaceLandmarks(canvas, resizedDetections); // Comento esto para no dibujar en el canvas
+    // faceapi.draw.drawFaceExpressions(canvas, resizedDetections); // Comento esto para no dibujar en el canvas
   }, 100);
 });
